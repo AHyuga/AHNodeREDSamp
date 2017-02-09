@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: AHNodeREDSamp
+  host: AHNodeREDSamp
+  disk_quota: 1024M
+  services:
+  - dashDB for Analytics-mt
+  - AHNodeREDSamp-cloudantNoSQLDB
+  - availability-monitoring-auto
